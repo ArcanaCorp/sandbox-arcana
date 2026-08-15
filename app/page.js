@@ -76,7 +76,7 @@ export default function Page () {
                         </div>
                     </div>
                 </section>
-                <section className="w-full py-xl lg:px-xl">
+                <section className="w-full py-xl lg:px-xl" id="cohort">
                     <div className="w m-auto" style={{"--w": "90%"}}>
                         <div className="w-full flex flex-col gap-md lg:items-end justify-between mb-xl lg:flex-row">
                             <div>
@@ -102,14 +102,14 @@ export default function Page () {
                                     </div>
                                     <div className="w-full p-md border-thin-bottom">
                                         <p className="text-nowrap text-white">INVESTMENT</p>
-                                        <p className="text-nowrap text-muted">{item.investment}</p>
+                                        <p className="text-nowrap text-muted">{item.investment.display}</p>
                                     </div>
                                 </div>
                                 <div className="w-full flex flex-col px-md py-lg lg:flex-row">
                                     <div className="w-full flex flex-col">
-                                        <h3 className="text-lg lg:text-2xl">{item.team}</h3>
-                                        <p className="text-muted mb-lg">{item.project}</p>
-                                        <p className="text-md mb-md">{item.description}</p>
+                                        <h3 className="text-lg lg:text-2xl">{item.team.name}</h3>
+                                        <p className="text-muted mb-lg">{item.project.fullName}</p>
+                                        <p className="text-md mb-md">{item.project.description}</p>
                                         <Link href={item.href} className="inline-flex w-fit p-md border-thin-inverse">Ver detalles</Link>
                                     </div>
                                     <div className="w-full"></div>
