@@ -1,0 +1,149 @@
+/* =========================
+   RESET
+========================= */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   DOCUMENT
+========================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 100dvw;
+    font-family: var(--font-family);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+strong, b {
+    font-weight: var(--fw-bold);
+}
+
+
+/* =========================
+   LISTS
+========================= */
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+    cursor: pointer;
+    background: none;
+    color: inherit;
+}
+
+
+/* =========================
+   FORM ELEMENTS
+========================= */
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+input,
+textarea {
+    background: transparent;
+    color: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* =========================
+   MEDIA
+========================= */
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+
+/* =========================
+   TABLES
+========================= */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* =========================
+   FORM STATES
+========================= */
+
+button:disabled,
+input:disabled,
+textarea:disabled,
+select:disabled {
+    cursor: not-allowed;
+}
+
+
+/* =========================
+   HIDDEN
+========================= */
+
+[hidden] {
+    display: none !important;
+}

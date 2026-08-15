@@ -1,0 +1,46 @@
+.rounded-xs { border-radius: var(--radius-xs); }
+.rounded-sm { border-radius: var(--radius-sm); }
+.rounded-md { border-radius: var(--radius-md); }
+.rounded-lg { border-radius: var(--radius-lg); }
+.rounded-full { border-radius: var(--radius-full); }
+
+
+.border-thin { border: var(--border-thin); }
+.border-normal { border: var(--border-normal); }
+.border-thick { border: var(--border-thick); }
+
+.border-thin-top { border-top: var(--border-thin); }
+.border-thin-left { border-left: var(--border-thin); }
+.border-thin-bottom { border-bottom: var(--border-thin); }
+.border-thin-right { border-right: var(--border-thin); }
+
+.border-normal-top { border-top: var(--border-normal); }
+.border-normal-left { border-left: var(--border-normal); }
+.border-normal-bottom { border-bottom: var(--border-normal); }
+.border-normal-right { border-right: var(--border-normal); }
+
+
+.border-thick-top { border-top: var(--border-thick); }
+.border-thick-left { border-left: var(--border-thick); }
+.border-thick-bottom { border-bottom: var(--border-thick); }
+.border-thick-right { border-right: var(--border-thick); }
+
+.border-thin-inverse { border: var(--border-thin-inverse); }
+.border-normal-inverse { border: var(--border-normal-inverse); }
+.border-thick-inverse { border: var(--border-thick-inverse); }
+
+.border-thin-top-inverse { border-top: var(--border-thin-inverse); }
+.border-thin-left-inverse { border-left: var(--border-thin-inverse); }
+.border-thin-bottom-inverse { border-bottom: var(--border-thin-inverse); }
+.border-thin-right-inverse { border-right: var(--border-thin-inverse); }
+
+.border-normal-top-inverse { border-top: var(--border-normal-inverse); }
+.border-normal-left-inverse { border-left: var(--border-normal-inverse); }
+.border-normal-bottom-inverse { border-bottom: var(--border-normal-inverse); }
+.border-normal-right-inverse { border-right: var(--border-normal-inverse); }
+
+
+.border-thick-top-inverse { border-top: var(--border-thick-inverse); }
+.border-thick-left-inverse { border-left: var(--border-thick-inverse); }
+.border-thick-bottom-inverse { border-bottom: var(--border-thick-inverse); }
+.border-thick-right-inverse { border-right: var(--border-thick-inverse); }
