@@ -865,7 +865,7 @@ export default async function Page({ params }) {
                             ARCANA SANDBOX · COHORT {item.cohort}
                         </p>
 
-                        <h2 className="text-3xl lg:text-6xl max-w-6xl mb-xl">
+                        <h2 className="text-2xl lg:text-6xl max-w-6xl mb-xl">
                             No apostamos por el producto.
                             <br />
                             Apostamos por ustedes.
@@ -898,10 +898,6 @@ export default async function Page({ params }) {
 
             </main>
 
-
-            {/* ========================================
-                FOOTER
-            ======================================== */}
             <footer className="w-full bg-secondary px-xl py-md border-thin-top">
                 <div
                     className="w m-auto flex flex-col items-center gap-md justify-between lg:flex-row"
@@ -1028,7 +1024,7 @@ function AudienceCard({ label, audience }) {
                 {label}
             </p>
 
-            <h3 className="text-2xl mb-sm">
+            <h3 className="text-xl lg:text-2xl mb-sm">
                 {audience.name}
             </h3>
 
