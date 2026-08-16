@@ -508,5 +508,506 @@ export const cohort = [
             }
         },
         href: "/cohort-2026/impulso-joven"
+    },
+    {
+        id: "SBX-002",
+        slug: "wall-tech-vicentinos",
+        cohort: "2026",
+        status: "Selected · Cohort 2026",
+        selectedBy: "ARCANA Sandbox",
+        industry: "FinTech · EdTech",
+        stage: "Prototype · Initial Validation",
+        location: "Jauja, Junín, Perú",
+        investment: {
+            type: "In-kind technology investment",
+            amount: 10000,
+            currency: "PEN",
+            display: "Up to S/ 10,000",
+            description: "Inversión en especie destinada a transformar NeoEduCash en un producto tecnológico funcional mediante ingeniería, infraestructura, diseño, servicios y acompañamiento de ARCANA."
+        },
+        team: {
+            name: "WALL-TECH VICENTINOS",
+            institution: "I.E. San Vicente de Paul",
+            advisor: {
+                name: "Jhon Salas",
+                role: "Docente asesor"
+            },
+            mantra: "Aprender hoy para tomar mejores decisiones financieras mañana.",
+            description: "Equipo estudiantil de la I.E. San Vicente de Paul que desarrolla NeoEduCash, una propuesta tecnológica orientada a fortalecer la educación financiera de los jóvenes mediante aprendizaje, simulación, ahorro y herramientas digitales.",
+            members: [
+                {
+                    name: "Santiago Paredes Leydi",
+                    originalRole: "Líder del equipo",
+                    grade: ""
+                },
+                {
+                    name: "Santivañez Mendoza Jessavel",
+                    originalRole: "Responsable de investigación",
+                    grade: ""
+                },
+                {
+                    name: "Hilario Choque Jerik",
+                    originalRole: "Responsable de Producción y Diseño",
+                    grade: ""
+                },
+                {
+                    name: "Velazques Palacios Jhosmar",
+                    originalRole: "Responsables de Finanzas y logística",
+                    grade: ""
+                },
+                {
+                    name: "Oré Munguía Connie",
+                    originalRole: "Asistente de Producción y QA",
+                    grade: ""
+                },
+                {
+                    name: "Hinostroza Reyes Liam",
+                    originalRole: "Marketing y ventas",
+                    grade: ""
+                }
+            ]
+        },
+        project: {
+            name: "NeoEduCash",
+            fullName: "NeoEduCash: Educación financiera para jóvenes",
+            tagline: "Aprende a manejar tu dinero antes de tener que enfrentarte al mundo financiero.",
+            shortDescription: "Plataforma de educación financiera orientada a jóvenes que busca enseñar conceptos financieros, fomentar hábitos de ahorro y permitir experimentar con decisiones económicas mediante herramientas digitales y simulaciones.",
+            description: "NeoEduCash nace como una propuesta para acercar la educación financiera a los jóvenes desde una experiencia digital, sencilla y adaptada a sus necesidades. El proyecto busca comenzar como una plataforma de aprendizaje financiero y evolucionar progresivamente hacia herramientas capaces de interactuar con servicios financieros reales.",
+            purpose: "Ayudar a los jóvenes a desarrollar conocimientos, hábitos y criterios para administrar mejor su dinero y tomar decisiones financieras responsables.",
+            methodology: "Design Thinking",
+            vision: "Construir una plataforma que pueda evolucionar desde educación financiera y simulación hacia una experiencia financiera digital conectada con productos y servicios reales."
+        },
+        problem: {
+            headline: "La educación financiera no debería comenzar cuando ya es demasiado tarde.",
+            statement: "Los jóvenes necesitan desarrollar conocimientos y hábitos financieros antes de comenzar a administrar dinero de manera independiente.",
+            identifiedProblem: "Existe una necesidad de acercar la educación financiera a estudiantes jóvenes mediante herramientas digitales que les permitan aprender, practicar y comprender conceptos financieros de manera sencilla.",
+            mainCause: "La educación financiera suele ser limitada, poco práctica o desconectada de las experiencias financieras cotidianas de los jóvenes.",
+            consequences: [
+                "Bajo conocimiento financiero",
+                "Dificultad para administrar el dinero",
+                "Falta de hábitos de ahorro",
+                "Decisiones financieras poco informadas",
+                "Desconocimiento sobre inversión y planificación financiera"
+            ],
+            affectedPeople: [
+                "Estudiantes jóvenes",
+                "Padres de familia",
+                "Docentes",
+                "Instituciones educativas"
+            ],
+            insights: [
+                "Los jóvenes necesitan aprender a administrar dinero desde temprana edad.",
+                "La educación financiera debe ser práctica y no únicamente teórica.",
+                "La gamificación puede hacer más atractivo el aprendizaje.",
+                "Las metas de ahorro pueden ayudar a desarrollar hábitos.",
+                "Los padres pueden desempeñar un papel importante en la supervisión financiera.",
+                "La tecnología puede acercar conceptos financieros complejos a los estudiantes."
+            ],
+            pov: "Los jóvenes necesitan una forma sencilla, práctica y atractiva de aprender sobre dinero porque la educación financiera tradicional no siempre les permite experimentar las consecuencias de sus decisiones.",
+            challenge: "¿Cómo podríamos ayudar a los jóvenes a desarrollar conocimientos y hábitos financieros mediante una experiencia digital práctica, segura y atractiva?"
+        },
+        solution: {
+            headline: "Aprender finanzas antes de tener que vivirlas.",
+            description: "Una plataforma digital de educación financiera que combina aprendizaje, simulación, metas de ahorro, gamificación y herramientas interactivas para ayudar a los jóvenes a comprender y practicar la administración del dinero.",
+            channels: [
+                "Aplicación móvil",
+                "Página web",
+                "Instituciones educativas",
+                "Tablets educativas",
+                "Facebook",
+                "Instagram",
+                "TikTok"
+            ],
+            coreFeatures: [
+                {
+                    name: "Educación financiera",
+                    description: "Contenido educativo para aprender conceptos financieros de forma sencilla."
+                },
+                {
+                    name: "Metas de ahorro",
+                    description: "Los usuarios pueden establecer objetivos y realizar seguimiento de su progreso."
+                },
+                {
+                    name: "Simulaciones financieras",
+                    description: "Permiten experimentar con decisiones económicas sin utilizar dinero real."
+                },
+                {
+                    name: "Retos financieros",
+                    description: "Actividades orientadas a desarrollar hábitos financieros saludables."
+                },
+                {
+                    name: "Gamificación",
+                    description: "Sistema de recompensas y dinámicas que incentivan el aprendizaje."
+                },
+                {
+                    name: "Intereses virtuales",
+                    description: "Simulación de crecimiento del dinero para comprender conceptos financieros."
+                },
+                {
+                    name: "Asistente financiero",
+                    description: "Asistente virtual orientado a acompañar el aprendizaje financiero."
+                },
+                {
+                    name: "Perfil financiero educativo",
+                    description: "Espacio donde el estudiante puede visualizar su progreso y hábitos."
+                },
+                {
+                    name: "Supervisión parental",
+                    description: "Herramientas para que padres o tutores puedan acompañar el proceso educativo."
+                }
+            ],
+            expectedFlow: [
+                "Registro del estudiante",
+                "Configuración de objetivos",
+                "Aprendizaje de conceptos financieros",
+                "Realización de retos y simulaciones",
+                "Creación de metas de ahorro",
+                "Seguimiento del progreso",
+                "Desarrollo de hábitos financieros"
+            ]
+        },
+        audience: {
+            primary: {
+                name: "Estudiantes jóvenes",
+                ageRange: "14–17 años",
+                needs: [
+                    "Aprender educación financiera",
+                    "Aprender a ahorrar",
+                    "Comprender cómo administrar dinero",
+                    "Aprender sobre inversión",
+                    "Experimentar con decisiones financieras",
+                    "Desarrollar hábitos financieros"
+                ]
+            },
+            secondary: {
+                name: "Padres y tutores",
+                needs: [
+                    "Acompañar la educación financiera de sus hijos",
+                    "Supervisar determinados aspectos del aprendizaje",
+                    "Fomentar hábitos de ahorro",
+                    "Contar con herramientas educativas"
+                ]
+            },
+            institutional: {
+                name: "Instituciones educativas",
+                needs: [
+                    "Herramientas digitales de educación financiera",
+                    "Material educativo interactivo",
+                    "Seguimiento del aprendizaje",
+                    "Recursos complementarios para docentes"
+                ]
+            }
+        },
+        valueProposition: {
+            statement: "Ayudamos a los jóvenes a aprender a manejar su dinero mediante una experiencia digital que combina educación financiera, simulación, ahorro y gamificación.",
+            differentiators: [
+                "Orientación específica hacia jóvenes",
+                "Educación financiera práctica",
+                "Simulación de decisiones económicas",
+                "Metas y hábitos de ahorro",
+                "Gamificación",
+                "Posible acompañamiento parental",
+                "Potencial integración con instituciones educativas"
+            ]
+        },
+        businessModel: {
+            userAccess: "Modelo freemium",
+            revenueStreams: [
+                "Suscripción Premium",
+                "Licenciamiento para instituciones educativas",
+                "Programas de educación financiera",
+                "Cursos y contenidos especializados",
+                "Futuras alianzas con entidades financieras"
+            ],
+            premium: {
+                price: "S/ 25",
+                description: "Acceso a funciones avanzadas, herramientas adicionales de aprendizaje y funcionalidades de acompañamiento."
+            },
+            futureBusinessModel: {
+                description: "El proyecto contempla una evolución progresiva desde educación financiera hacia servicios financieros conectados mediante alianzas con entidades autorizadas.",
+                stages: [
+                    "Financial Learning",
+                    "Financial Simulation",
+                    "Connected Finance",
+                    "FinTech"
+                ]
+            }
+        },
+        future: {
+            headline: "Primero Learning. Después Finance.",
+            vision: "NeoEduCash no busca comenzar como un neobanco. Su estrategia consiste en construir primero una plataforma de educación financiera sólida y, a partir de ella, evolucionar hacia servicios financieros conectados.",
+            stages: [
+                {
+                    stage: "01",
+                    name: "Financial Learning",
+                    title: "Aprender",
+                    description: "Construir una plataforma de educación financiera para jóvenes.",
+                    features: [
+                        "Cursos",
+                        "Simulaciones",
+                        "Metas de ahorro",
+                        "Retos",
+                        "Gamificación",
+                        "Asistente educativo"
+                    ]
+                },
+                {
+                    stage: "02",
+                    name: "Financial Simulation",
+                    title: "Experimentar",
+                    description: "Permitir que los estudiantes experimenten con decisiones financieras sin utilizar dinero real.",
+                    features: [
+                        "Simulación de ahorro",
+                        "Simulación de inversión",
+                        "Intereses virtuales",
+                        "Presupuestos",
+                        "Escenarios financieros"
+                    ]
+                },
+                {
+                    stage: "03",
+                    name: "Connected Finance",
+                    title: "Conectar",
+                    description: "Explorar integraciones con entidades financieras para permitir visualizar información financiera real mediante conexiones autorizadas.",
+                    potentialFeatures: [
+                        "Vinculación con una tarjeta o cuenta",
+                        "Visualización de saldo",
+                        "Seguimiento de movimientos",
+                        "Herramientas de ahorro basadas en datos reales"
+                    ]
+                },
+                {
+                    stage: "04",
+                    name: "FinTech",
+                    title: "Construir servicios financieros",
+                    description: "Evolucionar hacia una plataforma financiera para jóvenes mediante las alianzas, autorizaciones y estructura regulatoria correspondientes.",
+                    potentialFeatures: [
+                        "Cuenta financiera",
+                        "Tarjeta",
+                        "Ahorro",
+                        "Metas financieras",
+                        "Productos financieros",
+                        "Educación financiera personalizada"
+                    ]
+                }
+            ]
+        },
+        institutionalOpportunity: {
+            title: "Educación financiera dentro del ecosistema educativo",
+            description: "El equipo contempla como visión futura que NeoEduCash pueda integrarse a dispositivos tecnológicos utilizados por instituciones educativas, incluyendo tablets entregadas en programas educativos públicos, como herramienta de apoyo para la enseñanza de educación financiera.",
+            potentialPartners: [
+                "Instituciones educativas",
+                "Entidades públicas",
+                "Ministerio de Educación",
+                "Entidades financieras",
+                "Universidades"
+            ],
+            note: "Esta línea representa una oportunidad futura que deberá ser validada institucionalmente y mediante los canales correspondientes."
+        },
+        competition: {
+            competitors: [],
+            competitiveAdvantage: "Combinar educación financiera, simulación, gamificación y potencial conexión con servicios financieros dentro de una experiencia diseñada específicamente para jóvenes."
+        },
+        research: {
+            methodology: "Design Thinking",
+            phases: [
+                "Empatizar",
+                "Definir",
+                "Idear",
+                "Prototipar",
+                "Evaluar"
+            ],
+            identifiedNeeds: [
+                "Aprender sobre administración del dinero",
+                "Desarrollar hábitos de ahorro",
+                "Comprender conceptos financieros",
+                "Experimentar sin asumir riesgos reales",
+                "Recibir acompañamiento"
+            ]
+        },
+        validation: {
+            problem: "Validated",
+            customer: "Validated",
+            solution: "Partially Validated",
+            price: "Partially Validated",
+            hypotheses: [],
+            findings: []
+        },
+        productEvolution: [
+            {
+                stage: "Concept",
+                description: "Propuesta inicial orientada a crear una solución de educación financiera para jóvenes."
+            },
+            {
+                stage: "Prototype",
+                description: "Construcción de una primera experiencia digital para representar la propuesta."
+            },
+            {
+                stage: "Financial Learning",
+                description: "Primera etapa de producto que ARCANA Sandbox ayudará a convertir en una plataforma funcional.",
+                status: "Next"
+            },
+            {
+                stage: "Connected Finance",
+                description: "Exploración futura de integraciones con servicios financieros reales.",
+                status: "Future"
+            },
+            {
+                stage: "FinTech",
+                description: "Visión de largo plazo del equipo.",
+                status: "Vision"
+            }
+        ],
+        prototype: {
+            type: "Digital prototype",
+            screens: [],
+            process: [
+                "Identificación del problema",
+                "Investigación",
+                "Ideación",
+                "Diseño de solución",
+                "Prototipado",
+                "Validación",
+                "Iteración"
+            ]
+        },
+        metrics: {
+            keyMetrics: [
+                "Estudiantes registrados",
+                "Estudiantes activos",
+                "Cursos completados",
+                "Retos completados",
+                "Metas de ahorro creadas",
+                "Metas alcanzadas",
+                "Tiempo de aprendizaje",
+                "Retención de usuarios",
+                "Instituciones educativas participantes"
+            ]
+        },
+        impact: {
+            type: "Educational · Financial · Social",
+            objectives: [
+                "Mejorar la educación financiera de los jóvenes",
+                "Promover hábitos de ahorro",
+                "Reducir la brecha de conocimiento financiero",
+                "Preparar a los estudiantes para su vida financiera adulta",
+                "Facilitar herramientas de aprendizaje financiero",
+                "Acercar la educación financiera a instituciones educativas"
+            ],
+            beneficiaries: [
+                "Estudiantes",
+                "Padres de familia",
+                "Docentes",
+                "Instituciones educativas"
+            ]
+        },
+        sandbox: {
+            selectionReason: "Wall-tech Vicentinos presenta una visión ambiciosa que combina educación, tecnología y finanzas, con potencial para evolucionar desde una plataforma de aprendizaje hacia soluciones financieras conectadas.",
+            thesis: "ARCANA Sandbox apuesta por el equipo y su capacidad de convertir una visión compleja en una solución progresiva, empezando por un problema que puede resolverse sin asumir desde el inicio la complejidad de una fintech.",
+            quote: "No apostamos por el producto. Apostamos por ustedes.",
+            objective: "Acompañar al equipo en la construcción de la primera etapa de NeoEduCash como plataforma de Financial Learning, validando su utilidad, adopción y modelo de negocio antes de avanzar hacia integraciones financieras.",
+            arcanaContribution: [
+                {
+                    area: "Product",
+                    description: "Definición del MVP de educación financiera y priorización de funcionalidades."
+                },
+                {
+                    area: "Engineering",
+                    description: "Arquitectura, frontend, backend, APIs y desarrollo del producto."
+                },
+                {
+                    area: "Design",
+                    description: "Diseño de una experiencia educativa atractiva, clara y orientada a jóvenes."
+                },
+                {
+                    area: "Infrastructure",
+                    description: "Hosting, base de datos, despliegue, servicios cloud y herramientas necesarias."
+                },
+                {
+                    area: "Data",
+                    description: "Métricas de aprendizaje, engagement, retención y evolución del usuario."
+                },
+                {
+                    area: "Mentorship",
+                    description: "Acompañamiento técnico, de producto y estrategia."
+                }
+            ]
+        },
+        roadmap: [
+            {
+                phase: "01",
+                name: "Validate",
+                title: "Validar el aprendizaje",
+                status: "Next",
+                objectives: [
+                    "Validar qué contenidos financieros generan mayor interés.",
+                    "Medir comprensión de los estudiantes.",
+                    "Validar las dinámicas de gamificación.",
+                    "Determinar las funciones esenciales del MVP."
+                ]
+            },
+            {
+                phase: "02",
+                name: "Define",
+                title: "Definir Financial Learning",
+                status: "Planned",
+                objectives: [
+                    "Definir el currículo financiero inicial.",
+                    "Diseñar la experiencia del estudiante.",
+                    "Definir sistema de progreso.",
+                    "Definir sistema de recompensas.",
+                    "Establecer métricas de aprendizaje."
+                ]
+            },
+            {
+                phase: "03",
+                name: "Build",
+                title: "Construir NeoEduCash",
+                status: "Planned",
+                objectives: [
+                    "Diseño UI/UX",
+                    "Arquitectura",
+                    "Desarrollo",
+                    "Infraestructura",
+                    "Gamificación",
+                    "Pruebas"
+                ]
+            },
+            {
+                phase: "04",
+                name: "Launch",
+                title: "Lanzamiento educativo",
+                status: "Planned",
+                objectives: [
+                    "Incorporar primeros estudiantes.",
+                    "Validar con docentes.",
+                    "Incorporar familias.",
+                    "Medir uso real."
+                ]
+            },
+
+            {
+                phase: "05",
+                name: "Connect",
+                title: "Explorar conexiones financieras",
+                status: "Future",
+                objectives: [
+                    "Investigar integraciones financieras.",
+                    "Identificar posibles aliados.",
+                    "Evaluar viabilidad técnica y regulatoria.",
+                    "Validar interés de usuarios."
+                ]
+            }
+        ],
+        story: {
+            beforeSandbox: "Wall-tech Vicentinos desarrolló NeoEduCash como una propuesta orientada a acercar la educación financiera a los jóvenes mediante tecnología.",
+            now: "Su selección para ARCANA Sandbox marca una nueva etapa en la que la prioridad será convertir la visión en una experiencia de aprendizaje financiero funcional y validable.",
+            future: "El equipo visualiza una evolución progresiva desde educación financiera y simulación hacia servicios financieros conectados y, eventualmente, una plataforma fintech."
+        },
+        reflection: {
+            summary: "El proyecto busca que los jóvenes comprendan el valor del dinero, aprendan a administrarlo y desarrollen hábitos financieros antes de ingresar plenamente a la vida financiera adulta.",
+            commitment: "El equipo busca continuar desarrollando NeoEduCash más allá de la etapa inicial del proyecto."
+        },
+        href: "/cohort-2026/wall-tech-vicentinos"
     }
 ];
